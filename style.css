@@ -1,0 +1,365 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+@font-face {
+    font-family: FonteTitulo;
+    src: url("assets/fontes/AGRESSIVE.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: FonteDigitacao;
+    src: url("assets/fontes/Linebeam.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: linear-gradient(to right, #000000, #130453);
+    color: rgb(207, 208, 222);
+}
+
+.digitando {
+    font-family: monospace;
+    font-size: 28px;
+    color: rgb(0, 255, 255);
+    text-shadow: 1px 1px 6px rgba(255, 255, 255, 0.185);
+
+
+    height: 30px;
+}
+
+.inicio {
+    padding: 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.subDivInicio {
+
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0);
+
+}
+
+.SetaBaixo {
+    font-size: 60px;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.seta {
+    color: #6b6b6b4f;
+}
+
+.seta:hover {
+    color: rgba(255, 255, 255, 0.399);
+    transition: 1.5s;
+}
+
+.divButtons {
+
+    margin-top: 30px;
+}
+
+em {
+    color: rgb(0, 255, 255);
+
+    font-style: normal;
+
+}
+
+.iconButton {
+    font-size: 2em;
+    border: solid rgba(255, 255, 255, 0.103) 1px;
+    border-bottom: solid rgba(160, 159, 159, 0.09) 1px;
+    color: rgb(121, 121, 121);
+    border-radius: 3px;
+    padding: 10px;
+    margin-right: 15px;
+
+}
+
+.iconButton:hover {
+    color: rgb(255, 255, 255);
+    border: solid rgba(255, 255, 255, 0.905) 1px;
+    border-bottom: solid white 1px;
+    transition: 1s;
+    border-radius: 10px;
+
+}
+
+.divIntrod {
+    margin: 20px;
+}
+
+.divCabecalho {
+    justify-content: space-between;
+    display: flex;
+    background-color: #04020c8e;
+    box-shadow: 8px 5px 5px #04020ca9;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: rgba(146, 142, 142, 0.77);
+}
+
+summary:hover {
+    color: white;
+    transition: 0.6s;
+}
+
+.titleSobreMim {
+    font-size: 40px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.nomeTitulo {
+    font-size: 90px;
+    margin: 0;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.125);
+    font-family: "FonteTitulo";
+
+}
+
+.icon {
+    padding-right: 1%;
+    color: rgb(193, 177, 255);
+}
+
+.icons {
+    color: white;
+}
+
+
+.topCab {
+    margin-right: 20px;
+    color: rgba(155, 144, 176, 0.514);
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    border-bottom: solid rgba(255, 255, 255, 0) 2px;
+}
+
+.topCab:hover {
+    color: rgb(255, 255, 255);
+    border-bottom: solid white 2px;
+    transition: 1.5s;
+
+    transform: perspective(1px);
+}
+
+.subTitulo {
+    font-weight: normal;
+    padding: 10px;
+    margin: 0;
+}
+
+.imgPortifolio {
+    width: 35%;
+    border-radius: 100%;
+    border: 2px solid rgb(6, 2, 42);
+    box-shadow: 4px 4px 20px rgb(0, 0, 0);
+
+}
+
+.navbar {
+    justify-content: space-around;
+    display: flex;
+    padding: 20px;
+}
+
+.divFormacao {
+    margin-top: 7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.subDivFormacao {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(#0000004b, #0c0c0c89);
+    backdrop-filter: blur(px);
+    margin-bottom: 1%;
+    width: 50%;
+    font-weight: normal;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.24);
+    padding: 2%;
+}
+
+.subdivSobreMim {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4%;
+    width: 50%;
+    font-weight: normal;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.divSobreMim {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.imgForm {
+    width: 24%;
+    height: 27%;
+    object-fit: cover;
+
+}
+
+.TopFormacao {
+    font-family: monospace;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.rodape {
+    background:linear-gradient(rgba(7, 7, 41, 0.203),rgba(11, 8, 35, 0.751));
+
+    padding: 10px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+
+.footerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+    margin-bottom: 15px;
+}
+
+.emailContato {
+    color: #aaa;
+    font-size: 1em;
+}
+
+.redesSociais {
+    display: flex;
+    gap: 15px;
+}
+
+
+.contat{
+    color: #02e9ce;
+}
+
+
+.copy {
+    font-size: 0.8em;
+    color: #666;
+}
+
+.subDivRodape {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+.txtSobre {
+    text-align: justify;
+}
+
+.hrRodape {
+    border: 1px solid rgba(125, 124, 124, 0.327)
+}
+
+.boxProjeto {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.subDivProjeto {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#0000004b, #0c0c0c89);
+    backdrop-filter: blur(2px);
+    margin-bottom: 2%;
+    width: 40%;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.24);
+
+}
+
+#projeto {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.Stacks {
+    display: flex;
+    justify-content: center;
+    min-width: 70%;
+    flex-wrap: wrap;
+    margin: 4px;
+
+}
+
+.cardStacks {
+    font-size: 14px;
+    padding: 3px;
+    margin: 1%;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    border-radius: 8px;
+
+}
+
+.divImgProjeto {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(235, 235, 235);
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+.imgProjeto {
+
+    width: 100%;
+    width: 100%;
+}
